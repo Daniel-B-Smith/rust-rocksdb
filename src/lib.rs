@@ -290,3 +290,4 @@ pub struct ColumnFamily<'a> {
 }
 
 unsafe impl<'a> Send for ColumnFamily<'a> {}
+unsafe impl<'a> Sync for ColumnFamily<'a> {}
